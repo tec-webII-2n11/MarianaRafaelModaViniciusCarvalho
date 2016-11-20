@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<link rel="stylesheet" type="text/css" href="estilo.css">
-		<title>.:: Ajuda ::.</title>
+		<title>.:: Fale conosco ::.</title>
 	</head>
 	
 	<body> 
@@ -27,21 +27,24 @@
                 </div>    
             </header>
             
-          
+            
+        <h1 class="titleLocal">Nos mande uma mensagem!</h1>
+            
+	
         <div style="clear:both"></div>
-            <div style="width:80%;margin:0 auto;display:block;">
-				<div style="width:68%;float:left;display:inline-block;">
-					<h2>Ainda não se cadastrou?</h2>
-					<span>Por favor, realize seu cadastro parar poder começas a usar.
-					</span>
-					<h2>Já tem cadastro?</h2>
-					<span>Vá para a home, clique em um estabelecimento e nos dê sua opinião.
-					</span>
-		      </div>   
-		      
-		       
-		       
-		       </div>
+		<div class="containerimage">
+			<div class="imgefeitop">
+			  <form method="post" action="enviafc.php" id="formfc" name="formfc">
+			    
+            <input name="nome" type="text" id="nome" placeholder="Nome"><br>
+            <input name="email" type="text" id="email" placeholder="E-mail"><br>
+				<textarea name="comentario" id="comentario" rows=6 cols=50 placeholder="Diga o que você pensa!"></textarea>
+				<br>
+	            <input name="enviar" type="submit" id="enviar" value="Enviar">
+	            <input name="limpar" type="reset" id="limpar" value="Limpar">
+	            </form>
+				
+			</div>
 			
 		
 		<div style="clear:both;"></div>
