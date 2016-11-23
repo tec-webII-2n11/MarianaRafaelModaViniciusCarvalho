@@ -10,18 +10,12 @@ body{
 
 header{
 	border-bottom:2px solid #000;
-	height: 80px;
-	position: absolute;
-    top: 0%;
+	height: 50px;
 	padding-bottom:15px;
 	width:80%;
 	margin:0 auto;
-	background-color: white;
 }
 footer{
-    
-    position: absolute;
-    top: 79.5%;
 	background-color:#000;
 	width:100%;
 	height:auto;
@@ -39,7 +33,6 @@ article{
 	float:left;
     margin-bottom: 1em;
 }
-
 .menu{
 	float:left;
 }
@@ -132,10 +125,7 @@ a{
 	margin-top:3%;
 }
 
-.logologin {
-    position: absolute;
-    left: 40.5%;
-}
+
 
 .imagefeito img{
 	float: left;
@@ -291,141 +281,170 @@ a{
 	visibility: hidden;
 	}
 	
-
-
-#entrar, #cadastrar, #login{
-    cursor:pointer;
+.invisible{
+    display: none
 }
 
-#entrar{
-    position: absolute;
-    left: 47.8%;
-    top: 26%;
-    margin-top: 60px;
-    margin-left: -100px;
-    width: 267px;
-    height: 45px;
-    border-radius: 5px;
-    background-color: gray;
-    border: 0px;
-    font-size: 23px;
-}
-.invisivel{
-    display: none;
-}
-#cadastrar{
-    position: absolute;
-    left: 47.8%;
-    top: 26%;
-    margin-top: 110px;
-    margin-left: -100px;
-    width: 267px;
-    height: 45px;
-    border-radius: 5px;
-    background-color: gray;
-    border: 0px;
-    
-    font-size: 23px;
-}
-#email,#senha{
-    color: black;
-    position: absolute;
-    left: 47.8%;
-    top: 20%;
-    width: 248px;
-    height: 40px;
-    border-radius: 2.5px;
-    margin-left: -100px;
-    border: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-#email{
-    margin-top: 60px;
-}
-#senha{
-    margin-top: 110px;
-}
-#login{
-    position: absolute;
-    left: 47.8%;
-    top: 26%;
-    margin-top: 110px;
-    margin-left: -100px;
-    width: 267px;
-    height: 37px;
-    border-radius: 5px;
-    background-color: gray;
-    border: 0px;
-}
-
-#tudo{
-    margin: auto;
-    background-color: #F2F2F2;
-}
-
-
-#conteudo{
-    padding-left: 10%;
-}
-
-
-#p{
-    text-align: center;
-    font-size: 25px;
-
+.formulario input{
+	padding: 10px;
+	margin: 5px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	width: 200px;
     
 }
-
-#conteudo1{
-    text-align: center;
-    font-size: 20px;
-
+#excluir, #avaliar{
+	background-color:#ccc;
+	padding:8px;	
+}
+.floatLeft{
+	float:left;
+	display:inline-block;
+	margin-left:10px;
+}
+.containerCabecalho{
+	width:80%;	
+	margin:0 auto;
+}
+#cabecalhoPg{
+	background-color:#E4051F;
+	width:100%;
+	height: 90px;
+	padding:10px 0;
+	margin-bottom: 25px;
 }
 
-#cadastro{
-    font-size: 20px;
-    background-color: lightgray;
-    border-radius: 5px;
-    border: 0;
-    margin-top: 7.5px;
+#cabecalhoPg .menu ul li a{
+	color:#fff;	
 }
-#cadastro1{
-    font-size: 20px;
-    background-color: lightgray;
-    border-radius: 5px;
-    border: 10px;
+#cabecalhoPg .menu ul li a:hover{
+	color:#FC8191;
 }
-#cadastro, #cadastro1{
-    cursor: pointer;
+#cabecalhoPg .menu{
+	float:right;
 }
-
-#corpo{
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    
-}
-
-#corpo form {
-    font-size: 16px;
-}
-
-#headercad{
-	border-bottom:2px solid #000;
-	height: 50px;
-	padding-bottom:15px;
+.titleLocal{
+	margin-top:25px;
 	width:80%;
 	margin:0 auto;
 }
-
-#footercad{
-    
-    position: absolute;
-    top: 95%;
-	background-color:#000;
-	width:100%;
-	height:auto;
-    padding-top: 10px;
-    padding-bottom: 0px;
+#comentario, #enviar, #limpar{
+	-webkit-border-radius: 3px;
+	-moz-border-radius:3px;
+	border-radius: 3px;
 }
+#enviar{
+	padding:5px 12px;
+	background-color: #00D96D;
+	color:#fff;
+	margin-top:12px;
+}
+#enviar:hover{
+	background-color:#00BF60;
+	cursor: pointer;
+}
+
+#limpar{
+	padding:5px 12px;
+	background-color: #00BFFF;
+	color:#fff;
+	margin-top:12px;
+	
+}
+#limpar:hover{
+	background-color: #009ED2;
+	cursor:pointer;
+}
+
+.scrollDiv{
+	padding-left:15px;
+	top:20px; 
+	width:465; 
+	height:120;  
+	overflow: scroll;
+	background-color:#F4F4F4;
+	margin-bottom:10px;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	border-top-left-radius: 15px;
+}
+.linkFooter{
+	color:#fff;
+	margin-bottom: 15px;
+}
+.linkFooter:hover{
+	color:#999999;
+}
+
+.containerTudo{
+	margin:0 auto;
+	width:80%;
+}
+.containerComentario{
+	padding:20px;
+	background-color: #F4F4F4;
+	border:1px solid #f9f9f9;
+	margin-bottom: 25px;
+	width:100%;
+}
+#excluir{
+	-webkit-border-radius: 10px;
+	-webkit-border-top-left-radius: 0;
+	-moz-border-radius: 10px;
+	-moz-border-radius-topleft: 0;
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	background-color: #0085B2;
+	color:#fff;
+	float:right;
+	margin-right: 20px;
+	border:none;
+}
+#excluir:hover{
+	background-color: #00A8DF;
+	cursor: pointer;
+}
+.avalieEstabele{
+	float:left;
+	display:inline-block;
+	width:48%;
+	height:100%;
+}
+
+
+#avalie{
+	width: 98%;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-topleft: 0px;
+	border-top-right-radius: 0px;
+	border-top-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border:none;
+	float:left;
+	margin-left: -0px;
+	margin-top:-5px;
+	background-color: #0085B2;
+	color:#fff;
+}
+#avalie:hover{
+	background-color: #009FD5;
+	cursor: pointer;
+	
+}
+
+.round{
+	-webkit-border-top-left-radius: 15px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	}
